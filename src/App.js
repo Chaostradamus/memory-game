@@ -1,11 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
+import ScoreBoard from "./components/Scoreboard";
+import CardGrid from "./components/Cardgrid";
+import Card from "./components/Card";
+
 function App() {
   return (
     <>
-      <div>Memory Game from scratch for Odin Project</div>
-      <div>can you spot the differences?</div>
+      <ScoreBoard />
+      <CardGrid />
+      <Card/>
     </>
   );
 }
