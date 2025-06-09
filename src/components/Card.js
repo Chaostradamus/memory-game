@@ -8,3 +8,5 @@ const Card = ({name, image, onClick}) => {
 }
 
 export default Card
+
+// props from cardgrid passed down to be used to display info
