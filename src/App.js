@@ -7,6 +7,7 @@ import Card from "./components/Card";
 function App() {
   return (
     <>
+    <p>Welcome</p>
       <ScoreBoard />
       <CardGrid />
       <Card/>
